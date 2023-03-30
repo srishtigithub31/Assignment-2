@@ -1,0 +1,24 @@
+body{
+	background-color: beige;
+	background-image: radial-gradient(rgba(236, 236, 17, 0.6), rgba(11, 106, 190, 0.4), rgba(176, 12, 72, 0.6)),url("14.jpg") ;
+}
+h1{
+    font-size:30px ;
+    font-weight: bolder;
+    color:rgb(21, 20, 20);
+}
+p{
+    font-size: 15px;
+    color:cornsilk;
+    line-height: 30px;
+}
+span{
+	font-weight:900;
+	font-style:italic;
+	font-variant:small-caps;
+    font-size: larger;
+}
+h2{
+    font-size:20px ;
+    color:chocolate;
+}

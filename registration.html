@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title> Registration </title>
+	</head>
+	<body>
+	 
+		<h1> Registration </h1>
+		<form method="get" action="profile.html">
+			<label> Username : </label>
+			<input type=text name=uname size=50 /> <br>
+			<label> Password : </label>
+			<input type=password name=pass /> <br>
+			<label> Gender : </label>
+			<input type=radio name=gender value=m /> Male 
+			<input type=radio name=gender value=f checked/> Female <br>
+			<label> Hobbies : </label>
+			<input type=checkbox name=hobbies value=reading/> Reading 
+			<input type=checkbox name=hobbies value=w/> Writing
+			<input type=checkbox name=hobbies value=d checked/> Drawing <br>
+			<label> Class : </label>
+			<select name=class multiple size=2 >
+				<option value=btit> B.Tech. (IT) </option>
+				<option value=btcs> B.Tech. (CS) </option>
+				<option value=mtit> M.Tech. (IT) </option>
+			</select> <br> 
+			<label> Comments : </label>
+			<textarea rows=4 cols=50 anme=comments>Any Comments.....</textarea> <br>
+			<input type=reset value"Clear"/> <input type=submit value="Register Now" />
+			
+		</form>
+	</body>
+</html>
